@@ -10,11 +10,15 @@
 
 .left {
   left: 0;
-  background-color: #0f62fe;
+  background-color: #0f63fe63;
 }
 
 .right {
   right: 0;
+}
+
+.topic {
+  font-family: "Apple Chancery";
 }
 
 .centered {
@@ -28,15 +32,33 @@
 .name_title {
   font-size: 48px;
   color: black;
-  text-align: left;
-  padding-bottom: 20px;
+  text-align: center;
+  font-family: "papyrus";
 }
 
 .brief_description {
-  text-align: left;
+  text-align: center;
+  font-family: "Lucida Handwriting", "Lucide Console", monospace;
+  color: black;
 }
 
 .profile_image {
   width: 100px;
-  height: 100px;
+}
+
+img{
+  max-width: 20%;
+  max-height: 20%;
+  float: center;
+  object-fit: scale-down;
+}
+
+.social-btns{
+  display: flex;
+  margin: 2rem 0;
+}
+
+.main {
+  background: #7796ffc0;
+  object-fit: cover;
 }
